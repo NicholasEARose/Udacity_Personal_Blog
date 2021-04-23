@@ -1,0 +1,22 @@
+@import "layout.css";
+@import "nav.css";
+
+/* grid container */
+#grid-container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 69px;
+  grid-template-areas:
+  "nav"
+  "post"
+}
+
+.post-info {
+  text-align: center;
+}
+
+/* content */
+#post {
+  padding: 4rem 8rem;
+}
