@@ -20,3 +20,8 @@
 #post {
   padding: 4rem 8rem;
 }
+
+.artist_blurb {
+  font-size: 1rem;
+  font-style: italic;
+}
