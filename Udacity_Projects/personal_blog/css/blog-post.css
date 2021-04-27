@@ -17,11 +17,17 @@
 }
 
 /* content */
+@media (min-width: 300px) {
+  #post {
+    padding: none;
+  }
+}
+
 #post {
   padding: 4rem 8rem;
 }
 
 .artist_blurb {
-  font-size: 1rem;
+  font-size: 0.75rem;
   font-style: italic;
 }
