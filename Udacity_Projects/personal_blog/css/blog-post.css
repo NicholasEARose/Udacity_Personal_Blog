@@ -20,3 +20,16 @@
 #post {
   padding: 4rem 8rem;
 }
+
+@media screen and (max-width: 600px) {
+  #post {
+    padding: 2.5rem 0.7rem 0 0.7rem;
+  }
+}
+
+.artist_blurb {
+  font-size: 0.75rem;
+  font-style: italic;
+  text-align: center;
+  margin: 2.5rem;
+}
