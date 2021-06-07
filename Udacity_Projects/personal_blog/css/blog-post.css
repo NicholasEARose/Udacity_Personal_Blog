@@ -18,18 +18,51 @@
 
 /* content */
 #post {
-  padding: 4rem 8rem;
+  padding-top: 1.8rem;
 }
 
-@media screen and (max-width: 600px) {
+@media (min-width: 500px) {
   #post {
-    padding: 2.5rem 0.7rem 0 0.7rem;
+    padding: 4rem 8rem;
   }
 }
 
-.artist_blurb {
+.author_wrapper {
+  display:flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  min-width: 100%;
+  width: 100%;
+  margin-top: 2.5rem;
+}
+
+.author_byline {
+  margin: 0 1rem 0 1rem;
+  display: flex;
+  flex-basis: 100%;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  position: relative;
+  vertical-align: top;
+}
+
+@media (min-width: 500px) {
+  .author_byline {
+    margin: 0;
+  }
+}
+
+.author_name {
+  padding-left: 1rem;
+}
+
+.author_image {
+  border-radius: 50%;
+}
+
+.author_bio_text {
   font-size: 0.75rem;
-  font-style: italic;
-  text-align: center;
-  margin: 2.5rem;
+  line-height: 1rem;
 }
