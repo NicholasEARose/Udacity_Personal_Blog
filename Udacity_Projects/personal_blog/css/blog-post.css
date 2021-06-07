@@ -50,12 +50,12 @@
 
 @media (min-width: 500px) {
   .author_byline {
-    margin: 0;
+    margin: 1rem 0 1rem 0;
   }
 }
 
 .author_name {
-  padding-left: 1rem;
+  padding: 0 1rem 0 1rem;
 }
 
 .author_image {
@@ -65,4 +65,36 @@
 .author_bio_text {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.author_photo {
+  height: 50px;
+  width: 50px;
+}
+
+.pet_photo {
+  width:100%;
+  align-items: center;
+}
+
+.pet_photo__caption {
+  text-align: center;
+}
+
+.twitter_link {
+  height: 45px;
+  width: 45px;
+  padding: 0.4rem;
+}
+
+.facebook_link {
+  height: 45px;
+  width: 45px;
+  padding: 0.4rem;
+}
+
+.linkedin_link {
+  height: 50px;
+  width: 50px;
+  padding: 0.4rem;
 }
